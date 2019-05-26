@@ -32,8 +32,7 @@
   end
   
   def position_taken?(index)
-    taken = false
-    if @board[index] == !taken #"X" || @board[index] == "O"
+    if @board[index] == "X" || @board[index] == "O"
       return true
     else @board[index] == " " #|| "" 
       return false
